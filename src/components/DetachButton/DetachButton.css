@@ -1,0 +1,29 @@
+.detach-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+  padding: 10px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+  background-color: #fff;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
+.detach-button:hover:not(:disabled) {
+  transform: scale(1.04);
+}
+
+.detach-button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.detach-button:focus-visible {
+  outline: 2px solid #1a1a1a;
+  outline-offset: 4px;
+}

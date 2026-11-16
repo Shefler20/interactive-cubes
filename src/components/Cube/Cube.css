@@ -1,0 +1,23 @@
+.cube {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  cursor: pointer;
+  touch-action: none;
+}
+
+.cube--red {
+  background-color: red;
+}
+
+.cube--blue {
+  background-color: blue;
+}
+
+.cube--green {
+  background-color: green;
+}
+
+.cube--selected {
+  outline: 3px solid black;
+}

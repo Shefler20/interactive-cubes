@@ -8,7 +8,7 @@ export const SCATTER_DISTANCE_MIN = 80;
 
 export const SCATTER_DISTANCE_MAX = 150;
 
-export const SCATTER_MIN_GAP = 10;
+export const SCATTER_MIN_GAP = 50;
 
 export const SCATTER_ATTEMPT_LIMIT = 100;
 
